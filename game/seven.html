@@ -1,0 +1,172 @@
+<!--
+title: 逢七过
+description: 
+published: 1
+date: 2026-10-03T15:58:03.244Z
+tags: 
+editor: code
+dateCreated: 2026-10-03T15:58:03.244Z
+-->
+
+<body>
+    <!-- 主页/设置页 -->
+    <div id="homePage" class="page active">
+        <div class="container">
+            <header>
+                <h1>逢七过游戏模拟</h1>
+                <p>逢7倍数或含7的数字需选择操作，所有非7数字被报出且使用全部操作即获胜</p>
+            </header>
+            
+            <div class="rules">
+                <h2>游戏规则</h2>
+                <div class="rule-list">
+                    <div class="rule-item">
+                        <h3>普通数字</h3>
+                        <p>不是7的倍数且不含数字7，必须正确输入数字</p>
+                    </div>
+                    <div class="rule-item">
+                        <h3>特殊数字</h3>
+                        <p>7的倍数或含数字7，必须选择操作</p>
+                    </div>
+                    <div class="rule-item">
+                        <h3>操作一：过 (o)</h3>
+                        <p>跳过当前数字，方向不变</p>
+                    </div>
+                    <div class="rule-item">
+                        <h3>操作二：拐 (t)</h3>
+                        <p>跳过当前数字，反转方向</p>
+                    </div>
+                    <div class="rule-item">
+                        <h3>操作三：跳 (j)</h3>
+                        <p>跳过当前数字并标记下一个数字</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="setup-section">
+                <h2>游戏设置</h2>
+                <div class="input-group">
+                    <label for="maxNumber">数字范围 (18-70):</label>
+                    <input type="number" id="maxNumber" min="18" max="70" value="33">
+                    <div class="range-error" id="maxNumberError">请输入18-70之间的数字</div>
+                </div>
+                <div class="input-group">
+                    <label for="timeLimit">每回合时间限制 (秒):</label>
+                    <select id="timeLimit">
+                        <option value="2">2秒</option>
+                        <option value="3" selected>3秒</option>
+                        <option value="5">5秒</option>
+                    </select>
+                </div>
+                <button id="toggleGameBtn" class="control-btn">开始游戏</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 游戏页 -->
+    <div id="gamePage" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>游戏进行中</h1>
+                <p>逢7倍数或含7的数字需选择操作</p>
+            </div>
+            
+            <div class="time-display">
+                <div class="time-item">
+                    <div class="time-label">本轮用时</div>
+                    <div class="time-value" id="elapsedTimeDisplay">00:00</div>
+                </div>
+                <div class="time-item">
+                    <div class="time-label">回合限时</div>
+                    <div class="time-value" id="roundTimeLimitDisplay">3秒</div>
+                </div>
+            </div>
+            
+            <div class="operation-used">
+                <div class="operation-used-item" id="op1-status">
+                    <span class="operation-icon">过</span>
+                    <span>操作一 (o)</span>
+                </div>
+                <div class="operation-used-item" id="op2-status">
+                    <span class="operation-icon">拐</span>
+                    <span>操作二 (t)</span>
+                </div>
+                <div class="operation-used-item" id="op3-status">
+                    <span class="operation-icon">跳</span>
+                    <span>操作三 (j)</span>
+                </div>
+            </div>
+            
+            <div class="game-stats">
+                <div class="stat-item">
+                    <div>当前数字</div>
+                    <div class="stat-value" id="currentNumberDisplay">1</div>
+                </div>
+                <div class="stat-item">
+                    <div>已报出数字</div>
+                    <div class="stat-value" id="reportedCount">0</div>
+                </div>
+                <div class="stat-item">
+                    <div>剩余数字</div>
+                    <div class="stat-value" id="remainingCount">33</div>
+                </div>
+                <div class="stat-item">
+                    <div>当前方向</div>
+                    <div class="stat-value" id="directionDisplay">递增</div>
+                </div>
+                <div class="stat-item">
+                    <div>起始数字</div>
+                    <div class="stat-value" id="startNumberDisplay">随机</div>
+                </div>
+            </div>
+            
+            <div class="game-area">
+                <div id="gameInfo">
+                    <h3>当前数字:</h3>
+                    <div class="current-number" id="currentNumber">1</div>
+                    <p>起始数字: <span id="startNumberText">随机生成</span></p>
+                </div>
+                
+                <div id="timerContainer" style="display: none;">
+                    <p>回合剩余时间: <span id="timeLeft">3</span>秒</p>
+                    <div class="timer">
+                        <div class="timer-bar" id="timerBar"></div>
+                    </div>
+                </div>
+                
+                <div class="user-input" id="userInputDisplay">
+                    <!-- 用户输入的数字将显示在这里 -->
+                </div>
+                <div class="input-feedback" id="inputFeedback">
+                    <!-- 输入反馈将显示在这里 -->
+                </div>
+                
+                <div class="all-buttons">
+                    <!-- 所有13个按钮将通过JavaScript动态生成 -->
+                </div>
+                
+                <div id="numberStatus">
+                    <!-- 数字状态将通过JavaScript动态生成 -->
+                </div>
+            </div>
+            
+            <div class="history">
+                <h3>游戏记录</h3>
+                <div id="gameHistory">
+                    <!-- 游戏历史记录将显示在这里 -->
+                </div>
+            </div>
+            
+            <button id="stopGameBtn" class="control-btn stop">停止游戏</button>
+        </div>
+    </div>
+    
+    <!-- 游戏结果弹窗 -->
+    <div class="message-box" id="resultModal">
+        <div class="message-title" id="resultTitle">游戏结束</div>
+        <div class="message-content" id="resultMessage"></div>
+        <div class="total-time-container">
+            <div class="elapsed-time">本轮用时: <span id="finalTimeDisplay" class="elapsed-time-display">00:00</span></div>
+        </div>
+        <button id="closeModal">确定</button>
+    </div>
