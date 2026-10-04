@@ -2,7 +2,7 @@
 title: 答新生问
 description: 以 2024 级为例，谈谈三中高一日常
 published: 1
-date: 2026-10-04T05:49:12.699Z
+date: 2026-10-04T06:00:23.179Z
 tags: 答新生问
 editor: markdown
 dateCreated: 2026-10-03T09:26:37.250Z
@@ -36,7 +36,8 @@ dateCreated: 2026-10-03T09:26:37.250Z
 
 
 [![av519402456](https://tianshu-vpc.oss-cn-shanghai.aliyuncs.com/4fe73100-9aa4-4113-9ef4-df87e720462a.png)](https://www.bilibili.com/video/av519402456)
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=519402456&bvid=BV1zg41147iV&cid=942937810&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=519402456&bvid=BV1zg41147iV&cid=942937810&p=1" width="100%" height="450" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"></iframe>
 
 ## 三中时空——时
 
