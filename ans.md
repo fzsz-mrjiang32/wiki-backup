@@ -2,7 +2,7 @@
 title: 答新生问
 description: 以 2024 级为例，谈谈三中高一日常
 published: 1
-date: 2026-10-03T14:43:07.175Z
+date: 2026-10-04T05:41:37.105Z
 tags: 答新生问
 editor: markdown
 dateCreated: 2026-10-03T09:26:37.250Z
@@ -17,7 +17,6 @@ dateCreated: 2026-10-03T09:26:37.250Z
 > 以下内容完全参考 2025 年 7 月发布的《答新生问》**原视频**，可能与最新情况有出入，但作为存档很有必要。
 {.is-warning}
 
-
 ## 区分“级”和“届”
 
 比如，2025 **级** 新生就是 2028 **届** 毕业生。
@@ -31,6 +30,10 @@ dateCreated: 2026-10-03T09:26:37.250Z
 ## 三中文化
 
 三言两语说不尽。不妨浏览 **三中官网**（[www.fz3z.cn](https://www.fz3z.cn/)），或者参观 **一层校史室**，也可以关注“福建省福州第三中学” **微信公众号**（fjsfzdszx），还能观看三中引以为傲的 **宣传片**。
+
+> 目前（2026年10月4日）三中官网**暂无法使用**
+{.is-warning}
+
 
 [![av519402456](https://tianshu-vpc.oss-cn-shanghai.aliyuncs.com/4fe73100-9aa4-4113-9ef4-df87e720462a.png)](https://www.bilibili.com/video/av519402456)
 
