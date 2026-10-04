@@ -2,7 +2,7 @@
 title: 答新生问
 description: 以 2024 级为例，谈谈三中高一日常
 published: 1
-date: 2026-10-04T05:41:37.105Z
+date: 2026-10-04T05:43:34.897Z
 tags: 答新生问
 editor: markdown
 dateCreated: 2026-10-03T09:26:37.250Z
@@ -66,17 +66,95 @@ dateCreated: 2026-10-03T09:26:37.250Z
 
 [![av643137955](https://tianshu-vpc.oss-cn-shanghai.aliyuncs.com/4771d7aa-5d94-4716-a249-0c1cbf2ea25f.png)](https://www.bilibili.com/video/av643137955)
 
-| **时间** | **事件** |
-| --- | --- |
-| 07:30 前 | 到校 |
-| 07:30 ~ 07:50 | 早读 |
-| 08:00 ~ 08:45 | 第一节 |
-| 08:55 ~ 09:40 | 第二节 |
-| 10:10 ~ 10:55 | 第三节 |
-| 11:10 ~ 11:55 | 第四节 |
-| 12:45 ~ 13:30 | 午休 |
-| 14:00 ~ 14:45 | 第五节 |
-| 15:00 ~ 15:45 | 第六节 |
-| 15:55 ~ 16:40 | 第七节 |
-| 16:50 ~ 17:35 | 第八节 |
-| 18:30 ~ 19:40 <br> 19:50 ~ 21:00 | 晚自习 |
+<style>
+.responsive-schedule {
+  width:100%;
+  border-collapse: collapse;
+}
+.responsive-schedule th, .responsive-schedule td {
+  border:1px solid #ccc;
+  padding:8px 10px;
+}
+/* 手机端（宽度≤768px）：转为竖版，一行一条记录 */
+@media screen and (max-width:768px) {
+  .responsive-schedule thead {
+    display:none;
+  }
+  .responsive-schedule tr {
+    display:block;
+    margin-bottom:16px;
+    border:1px solid #ccc;
+  }
+  .responsive-schedule td {
+    display:block;
+    border:none;
+    border-bottom:1px solid #eee;
+    text-align:left;
+  }
+  .responsive-schedule td::before {
+    content: attr(data-label);
+    font-weight:bold;
+    display:inline-block;
+    width:80px;
+  }
+}
+</style>
+
+<table class="responsive-schedule">
+<thead>
+<tr>
+<th>时间</th>
+<th>事件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="时间">07:30 前</td>
+<td data-label="事件">到校</td>
+</tr>
+<tr>
+<td data-label="时间">07:30 ~ 07:50</td>
+<td data-label="事件">早读</td>
+</tr>
+<tr>
+<td data-label="时间">08:00 ~ 08:45</td>
+<td data-label="事件">第一节</td>
+</tr>
+<tr>
+<td data-label="时间">08:55 ~ 09:40</td>
+<td data-label="事件">第二节</td>
+</tr>
+<tr>
+<td data-label="时间">10:10 ~ 10:55</td>
+<td data-label="事件">第三节</td>
+</tr>
+<tr>
+<td data-label="时间">11:10 ~ 11:55</td>
+<td data-label="事件">第四节</td>
+</tr>
+<tr>
+<td data-label="时间">12:45 ~ 13:30</td>
+<td data-label="事件">午休</td>
+</tr>
+<tr>
+<td data-label="时间">14:00 ~ 14:45</td>
+<td data-label="事件">第五节</td>
+</tr>
+<tr>
+<td data-label="时间">15:00 ~ 15:45</td>
+<td data-label="事件">第六节</td>
+</tr>
+<tr>
+<td data-label="时间">15:55 ~ 16:40</td>
+<td data-label="事件">第七节</td>
+</tr>
+<tr>
+<td data-label="时间">16:50 ~ 17:35</td>
+<td data-label="事件">第八节</td>
+</tr>
+<tr>
+<td data-label="时间">18:30 ~ 19:40<br>19:50 ~ 21:00</td>
+<td data-label="事件">晚自习</td>
+</tr>
+</tbody>
+</table>
