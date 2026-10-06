@@ -2,7 +2,7 @@
 title: CSP J/S 注意事项
 description: 
 published: 1
-date: 2026-10-04T08:04:19.745Z
+date: 2026-10-06T11:22:46.200Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-03T03:17:05.574Z
@@ -11,7 +11,8 @@ dateCreated: 2026-10-03T03:17:05.574Z
 # CSP-J/S 注意事项
 
 CSP-J/S 2026 第二轮将于 2026 年 10 月 31 日举行。
-![img_20260919_082401_710_result.jpg](/view/img_20260919_082401_710_result.jpg)
+
+![西湖.png](/西湖.png)
 
 | 入门组重要时间点 | 事项 |
 | --- | --- |
