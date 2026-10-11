@@ -2,7 +2,7 @@
 title: 首页
 description: 
 published: 1
-date: 2026-10-11T04:50:34.513Z
+date: 2026-10-11T05:16:03.956Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-03T02:37:37.728Z
@@ -16,7 +16,8 @@ dateCreated: 2026-10-03T02:37:37.728Z
 愿每一位到访者，都能在这里找到适合自己的节奏，看见高中更多的可能性。
 
 ## 加入编辑
-[点击登录/注册](https://mrjiang32.xyz/login)
+<a href="https://mrjiang32.xyz/login" style="display:inline-block; padding:10px 20px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">点击登录/注册</a>
+
 > 只允许使用QQ邮箱注册
 {.is-warning}
 
@@ -35,8 +36,8 @@ dateCreated: 2026-10-03T02:37:37.728Z
 4. 拒绝广告、引流、商业推广、无关外链。
 
 ### 三、编辑礼仪
-1. 修改他人内容时，尽量保留原文合理部分，**不要直接全盘删除别人的原创文字**。大幅度改动建议在讨论页说明理由。
-2. 有分歧优先在讨论页协商，不要反复互相回滚编辑（编辑战）。
+1. 修改他人内容时，尽量保留原文合理部分，**不要直接全盘删除别人的原创文字**。大幅度改动建议要说明理由。
+2. 有分歧优先在讨论页协商，不要反复互相回滚编辑。
 3. 语言尽量平实易懂，排版清晰，方便其他人阅读。
 
 ### 四、禁止内容
