@@ -2,32 +2,45 @@
 title: 首页
 description: 
 published: 1
-date: 2026-10-11T05:18:39.911Z
+date: 2026-10-11T05:26:09.162Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-03T02:37:37.728Z
 ---
 
 # 西湖物语
-西湖物语是由西湖物语民间组织设立的 Wiki 网站，旨在与大众分享高中学习技巧、经验，以及校园生活。
-网站收录各科学习笔记、备考思路、时间管理方案，记录真实的校园日常与成长感悟。
-我们希望跳出单一的应试视角，不只分享提分的方法，也聊聊高中阶段的困惑、选择与思考。
-这里没有权威的标准答案，所有内容都由学生自主整理、共同维护。
-愿每一位到访者，都能在这里找到适合自己的节奏，看见高中更多的可能性。
+
+高中好像总被简化成一条单向的备考赛道：刷题、排名、提分。
+但真实的高中，远不止试卷上的分数。
+
+西湖物语，是由学生自发搭建的 Wiki。
+我们在这里沉淀各科笔记、备考思路、时间管理的实践方法，也记录校园里真实的感受、选择与迷茫。
+
+这里不输出唯一标准答案，也没有所谓“权威名师”。
+所有文字，都是学生们一点点整理、反复打磨、共同维护的成果。
+我们希望留出一个空间：既能交流实用的学习经验，也可以聊聊应试之外，属于少年人的思考与困惑。
+
+如果你也在寻找适合自己的节奏，想看见高中更多的可能性，欢迎翻阅；
+如果你愿意分享你的经验与思考，也欢迎加入我们一起编写。
 
 ## 加入编辑
-<a href="https://mrjiang32.xyz/login" style="display:inline-block; padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500; margin-right:16px;">登录/注册</a><a href="https://mrjiang32.xyz/e/zh/soc" style="display:inline-block; padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500; margin-right:16px;">前往社区编辑页</a><a href="https://mrjiang32.xyz/zh/soc" style="display:inline-block; padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">前往社区页</a>
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:12px 0;">
+<a href="https://mrjiang32.xyz/login" style="padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">登录/注册</a>
+<a href="https://mrjiang32.xyz/e/zh/soc" style="padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">前往社区编辑页</a>
+<a href="https://mrjiang32.xyz/zh/soc" style="padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">前往社区页</a>
+</div>
 
-> 只允许使用QQ邮箱注册
+> 只允许使用QQ邮箱注册，请不要用爬虫、脚本批量注册，我会对异常网络直接封IP段
 {.is-warning}
 
+
 ## 编辑须知
-> 欢迎参与编辑、补充、修订本站内容。下面是本站的编辑基本准则。
+欢迎参与编辑、补充、修订本站内容。协作需要一些共同约定，请阅读下面的基本准则。
 
 ### 一、内容方向
 1. 内容围绕**高中学习、备考、校园生活、成长感悟**展开。不发布与主题无关的内容。
 2. 优先收录**可复用、真实、有参考价值**的经验、笔记、方法；鼓励原创总结，也可整理公开资料。
-3. 鼓励多角度记录，允许不同观点并存，不要求唯一“正确答案”。
+3. 鼓励多角度记录，允许不同观点并存，不必强求唯一“正确答案”。
 
 ### 二、内容规范
 1. 客观理性，不造谣、不引战，不进行人身攻击、不贴标签，拒绝极端言论。
@@ -36,8 +49,8 @@ dateCreated: 2026-10-03T02:37:37.728Z
 4. 拒绝广告、引流、商业推广、无关外链。
 
 ### 三、编辑礼仪
-1. 修改他人内容时，尽量保留原文合理部分，**不要直接全盘删除别人的原创文字**。大幅度改动建议要说明理由。
-2. 有分歧优先在讨论页协商，不要反复互相回滚编辑。
+1. 修改他人内容时，尽量保留原文合理部分，**不要直接全盘删除别人的原创文字**。大幅度改动建议说明理由。
+2. 观点有分歧优先在讨论页协商，不要反复互相回滚编辑。
 3. 语言尽量平实易懂，排版清晰，方便其他人阅读。
 
 ### 四、禁止内容
@@ -50,4 +63,3 @@ dateCreated: 2026-10-03T02:37:37.728Z
 ### 五、免责声明
 本站所有内容均由学生自发贡献，仅作经验交流参考，**不构成学习、择校、选科等方面的权威指导**。
 内容观点仅代表作者个人，不代表本站立场。访问者需自行甄别信息是否适用。
-
