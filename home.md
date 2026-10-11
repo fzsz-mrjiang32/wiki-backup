@@ -2,7 +2,7 @@
 title: 首页
 description: 
 published: 1
-date: 2026-10-11T05:16:03.956Z
+date: 2026-10-11T05:18:39.911Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-03T02:37:37.728Z
@@ -16,7 +16,7 @@ dateCreated: 2026-10-03T02:37:37.728Z
 愿每一位到访者，都能在这里找到适合自己的节奏，看见高中更多的可能性。
 
 ## 加入编辑
-<a href="https://mrjiang32.xyz/login" style="display:inline-block; padding:10px 20px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">点击登录/注册</a>
+<a href="https://mrjiang32.xyz/login" style="display:inline-block; padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500; margin-right:16px;">登录/注册</a><a href="https://mrjiang32.xyz/e/zh/soc" style="display:inline-block; padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500; margin-right:16px;">前往社区编辑页</a><a href="https://mrjiang32.xyz/zh/soc" style="display:inline-block; padding:8px 20px; background:#2f2f2f; color:#fff; border-radius:6px; text-decoration:none; font-weight:500;">前往社区页</a>
 
 > 只允许使用QQ邮箱注册
 {.is-warning}
